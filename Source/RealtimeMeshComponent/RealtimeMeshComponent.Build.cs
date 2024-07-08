@@ -11,7 +11,7 @@ public class RealtimeMeshComponent : ModuleRules
         //IWYUSupport = 
         //bLegacyPublicIncludePaths = false;
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-        bUseUnity = false;
+        bUseUnity = true;
         //IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
         
         PublicDefinitions.Add("WITH_REALTIME_MESH=1");

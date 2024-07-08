@@ -11,7 +11,7 @@ public class RealtimeMeshComponent : ModuleRules
         //IWYUSupport = 
         //bLegacyPublicIncludePaths = false;
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-        bUseUnity = false;
+        bUseUnity = true;
         //IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
 
         // This is to access RayTracing Definitions

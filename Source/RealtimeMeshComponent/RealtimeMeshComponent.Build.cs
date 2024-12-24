@@ -12,6 +12,10 @@ public class RealtimeMeshComponent : ModuleRules
         //bLegacyPublicIncludePaths = false;
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
         bUseUnity = true;
+
+        bWarningsAsErrors = false;
+        ShadowVariableWarningLevel = WarningLevel.Off;
+
         //IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
         
         PublicDefinitions.Add("WITH_REALTIME_MESH=1");

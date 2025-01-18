@@ -361,8 +361,8 @@ namespace RealtimeMesh
 			return true;
 		}
 		
-		return false;
 #endif
+		return false;
 	}
 
 	void FRealtimeMeshSectionGroupProxy::RebuildSectionMap()

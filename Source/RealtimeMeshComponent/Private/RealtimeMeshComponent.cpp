@@ -10,7 +10,7 @@
 #include "PhysicsEngine/BodySetup.h"
 #include "RealtimeMeshCore.h"
 #include "RealtimeMesh.h"
-#include "NavigationSystem.h"
+#include "AI/NavigationSystemBase.h"
 #include "RenderProxy/RealtimeMeshNaniteProxyInterface.h"
 #include "RenderProxy/RealtimeMeshProxy.h"
 #include "Net/UnrealNetwork.h"

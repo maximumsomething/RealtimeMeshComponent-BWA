@@ -41,7 +41,7 @@ public class RealtimeMeshComponent : ModuleRules
                 "Engine",
                 "RenderCore",
                 "RHI",
-                "NavigationSystem",
+                //"NavigationSystem",
                 "PhysicsCore",
 				"DeveloperSettings",
                 "Projects",
